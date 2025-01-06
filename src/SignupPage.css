@@ -1,0 +1,45 @@
+.position{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    margin-top:100px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    width: 600px;
+    border-radius: 8px;
+  }
+  
+  input {
+    width:300px;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 13px;
+  }
+  
+  input[type="submit"] {
+    background-color: #D91656;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #D91656;
+  }
+  
+  p {
+    color: #D91656;
+    font-size: 12px;
+  }
+  
+  h2{
+    text-align:center;
+    margin-bottom:10px;
+  }
